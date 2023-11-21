@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#FF781B',
   },
   title: {
-    color: 'black',
+    color: 'blue',
     textAlign: 'center',
     marginVertical: 20,
   },
