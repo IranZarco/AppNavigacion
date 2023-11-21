@@ -3,6 +3,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import React from 'react'
 import { Button, StyleSheet, Text, View } from 'react-native'
 import { DosScreen } from './DosScreen'
+import { styles } from '../../theme/appTheme';
 
 export const UnoScreen = () => {
   const navigator = useNavigation()
@@ -20,22 +21,3 @@ export const UnoScreen = () => {
     </LinearGradient >
   )
 }
-
-const styles = StyleSheet.create({
-  linearGradient: {
-    flex: 1,
-    paddingLeft: 15,
-    paddingRight: 15,
-    borderRadius: 5
-  },
-  container: {
-    flex: 1,
-    marginHorizontal: 10,
-    backgroundColor: '#FF781B',
-  },
-  title: {
-    color: 'black',
-    textAlign: 'center',
-    marginVertical: 20,
-  },
-});

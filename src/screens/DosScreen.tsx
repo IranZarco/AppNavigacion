@@ -2,6 +2,7 @@ import { useNavigation } from '@react-navigation/native'
 import React from 'react'
 import { Button, StyleSheet, Text, View } from 'react-native'
 import { FinalScreen } from './FinalScreen';
+import { styles } from '../../theme/appTheme';
 
 export const DosScreen = () => {
   const navigator = useNavigation();
@@ -18,16 +19,3 @@ export const DosScreen = () => {
     </View>
   )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    marginHorizontal: 10,
-    backgroundColor: '#FF781B',
-  },
-  title: {
-    color: 'blue',
-    textAlign: 'center',
-    marginVertical: 20,
-  },
-});

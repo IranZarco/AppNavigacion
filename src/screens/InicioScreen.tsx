@@ -1,6 +1,7 @@
 import { StackScreenProps } from '@react-navigation/stack';
 import React from 'react'
-import { Button, StyleSheet, Text, View } from 'react-native'
+import { Button, Text, View } from 'react-native'
+import { styles } from '../../theme/appTheme';
 
 interface Props extends StackScreenProps <any,any>{};
 
@@ -23,16 +24,3 @@ export const InicioScreen = ({navigation}:Props) => {
     </View>
   )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    marginHorizontal: 10,
-    backgroundColor: '#FF781B',
-  },
-  title: {
-    color: 'black',
-    textAlign: 'center',
-    marginVertical: 20,
-  },
-});
