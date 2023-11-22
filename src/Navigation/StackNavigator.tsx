@@ -4,6 +4,7 @@ import { InicioScreen } from '../screens/InicioScreen';
 import { UnoScreen } from '../screens/UnoScreen';
 import { DosScreen } from '../screens/DosScreen';
 import { FinalScreen } from '../screens/FinalScreen';
+import { EstudianteScreen } from '../screens/EstudianteScreen';
 const Stack = createStackNavigator();
 
 export const StackNavigator = () => {
@@ -18,6 +19,7 @@ export const StackNavigator = () => {
       <Stack.Screen name="UnoScreen" options= {{title:'Pagina 1'}} component={UnoScreen} />
       <Stack.Screen name="DosScreen" options= {{title:'Pagina 2'}} component={DosScreen} />
       <Stack.Screen name="FinalScreen" options= {{title:'Pagina Final'}} component={FinalScreen} />
+      <Stack.Screen name="EstudianteScreen" options= {{title:'Pagina Final'}} component={EstudianteScreen} />
     </Stack.Navigator>
   );
 }
